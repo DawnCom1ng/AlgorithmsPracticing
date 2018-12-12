@@ -16,7 +16,7 @@ public class RandomQuickSortTry {
             return;
         }
 
-        swap(arr, l + (int) Math.random() * (r-l+1), r);
+        swap(arr, l + (int) (Math.random() * (r-l+1)), r);
 
         int less = l-1;
         int more = r;
